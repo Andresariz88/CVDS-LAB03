@@ -1,5 +1,5 @@
 target/
 *.class
-*.classpath
+.classpath
 *.idea
-*.settings
+.settings/
