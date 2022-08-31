@@ -24,6 +24,7 @@ public class TarifasTest {
 		int diasAntelacion = 10;
 		int edad = 17;
 		double res = CalculadorDescuentos.calculoTarifa(tarifa, diasAntelacion, edad);
+		assertEquals(res, tarifa - (tarifa * 0.05), 0.01);
 	}
 	
 	@Test
